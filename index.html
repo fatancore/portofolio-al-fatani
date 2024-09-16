@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Tailwind CSS</title>
+    <link href="src/output.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- header star -->
+     <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+       <div class="container">
+        <div class="flex items-center justify-between relative">
+            <div class="px-4">
+                <a href="#home" class="font-bold text-lg text-primary block py-6">fatan</a>
+            </div>
+            <div class="flex items-center px-4">
+              <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left "></span>
+              </button>
+
+              <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                <ul class="block lg:flex">
+                    <li class="group">
+                        <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">home</a>
+                    </li>
+                    <li class="group">
+                        <a href="about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">about</a>
+                    </li>
+                    <li class="group">
+                        <a href="#portofolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">portofolio</a>
+                    </li>
+                    <li class="group">
+                        <a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">contact</a>
+                    </li>
+                </ul>
+              </nav>
+            </div>
+        </div>
+       </div>
+     </header>
+     <!-- header end -->
+
+  <!-- section start -->
+   <section id="home" class="pt-36">
+    <div class="container">
+        <div class="flex flex-wrap">
+            <div class="w-full self-center px-4 lg:w-1/2">
+                <h1 class="text-base font-semibold text-sky-300 md:text-xl "> Hello <span class="block font-bold text-black text-4xl mt-1">Iam Fatan</span></h1>
+                <h2 class="font-medium text-slate-700 text-lg mb-5 lg:text-2xl">Iam Student at idn</h2>
+                <p class="font-medium text-slate-400 mb-10 leading-relaxed">belajar web itu mudah dan menyenangkan, <span class="text-dark font-bold">bagi yang mau tapi yaa!!</span></p>
+                <a href="#"class="text-base font-semibold text-white bg-sky-500 py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">contact me</a>
+            </div>
+            <div class="w-full self-end px-4 lg:w-1/2">
+                <div class="relative mt-10 lg:mt-9 lg:right-0">
+                    <img src="src/img/WhatsApp Image 2024-09-11 at 09.57.53_d09d51f6.jpg" alt="fatan" claa="max-w full mx-auto"/>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+   <!-- section -->
+
+   <!-- about section start -->
+   <section id="about" class="pt-36 pb-32">
+    <div class="container">
+       <div class="flex flex-wrap">
+        <div class="w-full px-4 mb-10 lg:w-1/2">
+            <h4 class="font-bold uppercase text-primary text-lg mb-3">about me</h4>
+            <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">mahasiswa trpl politeknik IDN</h2>
+            <p class="font-medium text-base text-slate-500 max-w-xl lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolorem natus vel aut autem eum perspiciatis!</p>
+        </div>
+        <div class="w-full px-4 lg:w-1/2">
+            <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">mari berteman</h3>
+            <P class="font-medium text-base mb-5 lg:text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit dignissimos obcaecati voluptatem, recusandae perferendis maxime quos quaerat officia molestias nemo.
+                
+            </P>
+
+            <div class="flex items-center">
+                <a herf="https://youtube.com/AllfataniIsok"
+                    target="blank" 
+                    class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-sky-400 hover:bg-sky-400 hover:text-white">
+                <svg role="img" width="70" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <title>YouTube TV</title>
+                    <path
+                     d="M21.794 10.609h-.618v3.286h-.607v-3.286h-.617v-.504h1.842v.504zm.135-.504h.649l.202 1.703c.057.488.11.908.172 1.484h.026c.057-.576.114-.986.17-1.484l.208-1.703H24l-.623 3.784h-.82l-.628-3.784zm-15.758.38a.796.796 0 0 0-.555-.561c-.493-.13-2.465-.13-2.465-.13s-1.973 0-2.466.13a.787.787 0 0 0-.555.56C0 10.977 0 12 0 12s0 1.028.13 1.516a.794.794 0 0 0 .56.56c.488.13 2.46.13 2.46.13s1.973 0 2.466-.13a.806.806 0 0 0 .56-.555c.13-.493.13-1.516.13-1.516s-.005-1.028-.135-1.52zm-3.649 2.46v-1.89l1.64.945-1.64.945zm6.629.867a.652.652 0 0 1-.265-.395 2.703 2.703 0 0 1-.078-.706v-.4a2.383 2.383 0 0 1 .093-.716.724.724 0 0 1 .28-.394.943.943 0 0 1 .504-.125c.203 0 .369.042.493.125.13.098.229.233.27.394.062.234.094.472.083.716v.4c.005.239-.02.478-.083.711a.7.7 0 0 1-.27.395c-.124.083-.296.124-.508.124-.218-.005-.395-.046-.52-.13zm.7-.436c.037-.089.052-.24.052-.442v-.856a1.376 1.376 0 0 0-.052-.436.189.189 0 0 0-.181-.14.183.183 0 0 0-.177.14c-.041.14-.057.29-.052.436v.861c0 .203.016.353.052.442.02.083.094.14.182.135a.183.183 0 0 0 .176-.14zm8.88-.66v.14c0 .135.006.265.016.4a.373.373 0 0 0 .068.192.2.2 0 0 0 .156.062.2.2 0 0 0 .192-.109c.036-.072.052-.192.057-.363l.534.036a.56.56 0 0 1 .006.1c0 .253-.068.445-.208.57-.14.125-.337.187-.592.187-.306 0-.519-.099-.643-.29s-.187-.489-.187-.894v-.482c0-.416.062-.717.192-.909.13-.192.348-.285.654-.285.213 0 .379.041.493.12.12.088.207.217.244.363.052.223.078.456.067.685v.472l-1.048.005zm.079-1.162a.367.367 0 0 0-.063.192 5.48 5.48 0 0 0-.015.405v.197h.457v-.197c0-.135-.006-.27-.021-.405a.373.373 0 0 0-.068-.192.174.174 0 0 0-.145-.057.169.169 0 0 0-.145.057zm-11.175 1.11l-.706-2.559h.618l.249 1.158c.062.285.109.53.14.732h.02c.022-.146.068-.384.14-.727l.26-1.163h.618l-.716 2.56v1.23H7.64v-1.23h-.005zm4.905-1.536v2.767h-.488L12 13.557h-.016c-.13.255-.332.384-.596.384-.182 0-.317-.062-.405-.181-.089-.12-.13-.307-.13-.566v-2.066h.623v2.03a.659.659 0 0 0 .041.264.137.137 0 0 0 .135.078.28.28 0 0 0 .156-.052.281.281 0 0 0 .109-.124v-2.196h.623zm3.192 0v2.767h-.488l-.052-.338h-.016c-.13.255-.332.384-.596.384-.182 0-.317-.062-.405-.181-.089-.12-.13-.307-.13-.566v-2.066h.623v2.03a.659.659 0 0 0 .041.264.137.137 0 0 0 .135.078.28.28 0 0 0 .156-.052.281.281 0 0 0 .109-.124v-2.196h.623zm-1.5-.52h-.618v3.287h-.607v-3.286h-.618v-.504h1.843v.504zm3.56.961c-.036-.171-.098-.3-.181-.379a.508.508 0 0 0-.348-.12.56.56 0 0 0-.322.1.635.635 0 0 0-.228.254h-.005V9.965h-.597v3.93h.514l.062-.26h.015a.531.531 0 0 0 .218.223.69.69 0 0 0 .322.083.502.502 0 0 0 .467-.29c.099-.192.15-.499.15-.909v-.436a4.861 4.861 0 0 0-.067-.737zm-.57 1.127c0 .155-.006.316-.026.472a.508.508 0 0 1-.084.244.195.195 0 0 1-.155.072.257.257 0 0 1-.14-.036.3.3 0 0 1-.104-.109v-1.567a.425.425 0 0 1 .109-.187.224.224 0 0 1 .166-.073c.057 0 .114.026.145.073.042.078.068.16.073.249.015.166.02.332.02.498l-.005.364z"/></svg>
+                </a>
+                <!-- ig -->
+                <a herf="https://instagram.com/nigt_owl"
+                target="blank" 
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-sky-400 hover:bg-sky-400 hover:text-white">
+            <svg role="img" width="70" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>Instagram</title>
+                <path
+                 d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg>
+            </a>
+            <!-- toktok -->
+            <a herf="https://tiktok.com/@gsaelah"
+            target="blank" 
+            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-sky-400 hover:bg-sky-400 hover:text-white">
+            <svg role="img" width="70" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>TikTok</title>
+                <path 
+                d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+        </a>
+            </div>
+        </div>
+       </div>     
+    </div>
+   </section>
+   <!-- about section end -->
+      
+    <!-- about portofolio start -->
+     <section id="portofolio" class="pt-36 pb-16 bg-slate-300">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Portofolio</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4">Project</h2>
+                    <p class="font-mediumtext-md ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum repellendus reiciendis blanditiis placeat incidunt obcaecati reprehenderit expedita qui, quae animi.</p>
+                </div>
+            </div>
+
+            <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="src/img/portofolio/1.jpeg" alt="Universitas Ma Chung" width="w-full"/>
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Universitas Ma Chung</h3>
+                    <p class="font-medium text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam nam nisi quod molestiae repudiandae iusto esse quia eveniet?.</p>
+                </div>
+                <div class="mb-12 p-4 md-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="src/img/portofolio/2.jpeg" alt="Universitas Ma Chung" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">CakeResume</h3>
+                    <p class="font-medium text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio eligendi repellat at similique officiis dicta omnis quas unde facere iure.</p>
+                </div>
+                <div class="mb-12 p-4 md-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="src/img/portofolio/3.jpeg" alt="Universitas Ma Chung" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Universitas Ma Chung</h3>
+                    <p class="font-medium text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iste est cum! Ipsam assumenda expedita porro?.</p>
+                </div>
+                <div class="mb-12 p-4 md-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="src/img/portofolio/4.jpeg" alt="Universitas Ma Chung" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Canva</h3>
+                    <p class="font-medium text-base">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore inventore harum sed ut accusamus. Eaque corrupti omnis officia aliquid.</p>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- about portofolio end -->
+
+    <!-- section contct start -->
+     <section id="contact" class="pt-36 pb-32">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">contact</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4">contact me</h2>
+                    <p class="font-mediumtext-md ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, itaque.</p>
+                </div>
+             </div>
+        <form> 
+            <div class="w-full lg:w-2/3 lg:mx-auto">
+             <div class="w-full px-4 mb-8">
+                <label for="name" class="text-base font-semibold text-primary">Nama</label>
+                <input type="text" id="name" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-offset-primary focus:ring-1 focus:border-primary"/>
+            </div>
+            <div class="w-full px-4 mb-8">
+                <label for="email" class="text-base font-semibold text-primary">email</label>
+                <input type="email" id="email" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-offset-primary focus:ring-1 focus:border-primary"/>
+            </div>
+             <div class="w-full px-4 mb-8">
+                <label for="message" class="text-base font-semibold text-primary">massage</label>
+                <textarea type="" id="name" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-offset-primary focus:ring-1 focus:border-primary h-32"></textarea>
+            </div>
+            <div class="w-full">
+                <button class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500">Send</button>
+            </div>
+           </div>
+        </form>
+            
+        </div>
+     </section>
+     <!-- section contact end -->
+
+     <!-- footer start -->
+      <footer class="bg-dark pt-24 pb-12">
+        <div class="containner">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-12 font-medium text-slate-300 md:w-1/3">
+                    <h2 class="font-bold text-4xl text-white mb-5">IDN</h2>
+                    <h3 class="font-boldtext-2xl">contact me</h3>
+                    <p>alfataniisok@agmail.com</p>
+                    <p>jln Raya Jonggol-Dayeuh, Sukanegara, Kec.Jonggol, Kab.Bogor,Jawa Barat</p>
+                </div>
+                <div class="w-full fx-4 mb-12 md:1/3">
+                    <h3 class="font-semibold text-xl text-white mb-5">Kategori</h3>
+                    <ul class="text-slate-300">
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-primary mb-3">Programing</a>
+                        </li>
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-primary mb-3">Designing</a>
+                        </li>
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-primary mb-3">Network</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-full fx-4 mb-12 md:1/3">
+                    <h3 class="font-semibold text-xl text-white mb-5">Tautan</h3>
+                    <ul class="text-slate-300">
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-primary mb-3">home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-primary mb-3">about</a>
+                        </li>
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-primary mb-3">Portofolio</a>
+                        </li>
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-primary mb-3">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-full pt-10 border-t border-slate-700">
+                <div class="flex items-center justify-center">
+
+                    <a herf="https://youtube.com/AllfataniIsok"
+                        target="blank" 
+                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-sky-400 hover:bg-sky-400 hover:text-white">
+                    <svg role="img" width="70" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <title>YouTube TV</title>
+                        <path
+                         d="M21.794 10.609h-.618v3.286h-.607v-3.286h-.617v-.504h1.842v.504zm.135-.504h.649l.202 1.703c.057.488.11.908.172 1.484h.026c.057-.576.114-.986.17-1.484l.208-1.703H24l-.623 3.784h-.82l-.628-3.784zm-15.758.38a.796.796 0 0 0-.555-.561c-.493-.13-2.465-.13-2.465-.13s-1.973 0-2.466.13a.787.787 0 0 0-.555.56C0 10.977 0 12 0 12s0 1.028.13 1.516a.794.794 0 0 0 .56.56c.488.13 2.46.13 2.46.13s1.973 0 2.466-.13a.806.806 0 0 0 .56-.555c.13-.493.13-1.516.13-1.516s-.005-1.028-.135-1.52zm-3.649 2.46v-1.89l1.64.945-1.64.945zm6.629.867a.652.652 0 0 1-.265-.395 2.703 2.703 0 0 1-.078-.706v-.4a2.383 2.383 0 0 1 .093-.716.724.724 0 0 1 .28-.394.943.943 0 0 1 .504-.125c.203 0 .369.042.493.125.13.098.229.233.27.394.062.234.094.472.083.716v.4c.005.239-.02.478-.083.711a.7.7 0 0 1-.27.395c-.124.083-.296.124-.508.124-.218-.005-.395-.046-.52-.13zm.7-.436c.037-.089.052-.24.052-.442v-.856a1.376 1.376 0 0 0-.052-.436.189.189 0 0 0-.181-.14.183.183 0 0 0-.177.14c-.041.14-.057.29-.052.436v.861c0 .203.016.353.052.442.02.083.094.14.182.135a.183.183 0 0 0 .176-.14zm8.88-.66v.14c0 .135.006.265.016.4a.373.373 0 0 0 .068.192.2.2 0 0 0 .156.062.2.2 0 0 0 .192-.109c.036-.072.052-.192.057-.363l.534.036a.56.56 0 0 1 .006.1c0 .253-.068.445-.208.57-.14.125-.337.187-.592.187-.306 0-.519-.099-.643-.29s-.187-.489-.187-.894v-.482c0-.416.062-.717.192-.909.13-.192.348-.285.654-.285.213 0 .379.041.493.12.12.088.207.217.244.363.052.223.078.456.067.685v.472l-1.048.005zm.079-1.162a.367.367 0 0 0-.063.192 5.48 5.48 0 0 0-.015.405v.197h.457v-.197c0-.135-.006-.27-.021-.405a.373.373 0 0 0-.068-.192.174.174 0 0 0-.145-.057.169.169 0 0 0-.145.057zm-11.175 1.11l-.706-2.559h.618l.249 1.158c.062.285.109.53.14.732h.02c.022-.146.068-.384.14-.727l.26-1.163h.618l-.716 2.56v1.23H7.64v-1.23h-.005zm4.905-1.536v2.767h-.488L12 13.557h-.016c-.13.255-.332.384-.596.384-.182 0-.317-.062-.405-.181-.089-.12-.13-.307-.13-.566v-2.066h.623v2.03a.659.659 0 0 0 .041.264.137.137 0 0 0 .135.078.28.28 0 0 0 .156-.052.281.281 0 0 0 .109-.124v-2.196h.623zm3.192 0v2.767h-.488l-.052-.338h-.016c-.13.255-.332.384-.596.384-.182 0-.317-.062-.405-.181-.089-.12-.13-.307-.13-.566v-2.066h.623v2.03a.659.659 0 0 0 .041.264.137.137 0 0 0 .135.078.28.28 0 0 0 .156-.052.281.281 0 0 0 .109-.124v-2.196h.623zm-1.5-.52h-.618v3.287h-.607v-3.286h-.618v-.504h1.843v.504zm3.56.961c-.036-.171-.098-.3-.181-.379a.508.508 0 0 0-.348-.12.56.56 0 0 0-.322.1.635.635 0 0 0-.228.254h-.005V9.965h-.597v3.93h.514l.062-.26h.015a.531.531 0 0 0 .218.223.69.69 0 0 0 .322.083.502.502 0 0 0 .467-.29c.099-.192.15-.499.15-.909v-.436a4.861 4.861 0 0 0-.067-.737zm-.57 1.127c0 .155-.006.316-.026.472a.508.508 0 0 1-.084.244.195.195 0 0 1-.155.072.257.257 0 0 1-.14-.036.3.3 0 0 1-.104-.109v-1.567a.425.425 0 0 1 .109-.187.224.224 0 0 1 .166-.073c.057 0 .114.026.145.073.042.078.068.16.073.249.015.166.02.332.02.498l-.005.364z"/></svg>
+                    </a>
+                    <!-- ig -->
+                    <a herf="https://instagram.com/nigt_owl"
+                    target="blank" 
+                    class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-sky-400 hover:bg-sky-400 hover:text-white">
+                <svg role="img" width="70" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <title>Instagram</title>
+                    <path
+                     d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg>
+                </a>
+                <!-- toktok -->
+                <a herf="https://tiktok.com/@gsaelah"
+                target="blank" 
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-sky-400 hover:bg-sky-400 hover:text-white">
+                <svg role="img" width="70" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <title>TikTok</title>
+                    <path 
+                    d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+            </a>
+                </div>
+            <p class="font-medium text-xs text-slate-700">Create by <a href="https://instagram.com/nigt_owl" target="_blank" class="font-bold text-primary"> Fatan</a> useing <a href="https://Tailwindcss.com" target="_blank" class="font-bold text-sky-500">Tailwind CSS.</a></p>
+            </div>
+        </div>
+      </footer>
+     <!-- footer end -->
+
+    <script src="src/js/script.js"></script>
+</body>
+</html> 
